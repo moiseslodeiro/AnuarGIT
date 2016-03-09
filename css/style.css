@@ -1,1 +1,36 @@
-:
+body, html {
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgb(224, 224, 224), rgb(160, 160, 160));
+}
+
+.profile-img {
+    padding-bottom: 35px;
+	text-align: center;
+}
+
+.info {
+	background-color: white;
+	border: 2px solid #004C99;
+	with: inherit;
+	padding: 20px;
+	border-radius: 5px;
+}
+
+.profile-img > img.img-circle {
+
+    border: 2px solid #004C99;
+	border-radius: 27px;
+}
+
+.name-container {
+    margin-top: -46px;
+    text-align: center;
+}
+
+.name {
+    background-color: #004C99;
+	color: white;
+	text-transform: uppercase;
+    border-radius: 27px;
+	padding: 20px;
+}
