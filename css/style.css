@@ -15,7 +15,13 @@ body, html {
 	with: inherit;
 	padding: 20px;
 	border-radius: 5px;
+	transition:all 1s ease;
 }
+
+.visible {
+	opacity: 1;
+}
+
 
 .profile-img > img.img-circle {
 
