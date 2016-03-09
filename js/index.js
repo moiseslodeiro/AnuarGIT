@@ -7,3 +7,4 @@ function expand(id){
 	document.getElementById(id).classList.toggle('visible');
 
 }
+
